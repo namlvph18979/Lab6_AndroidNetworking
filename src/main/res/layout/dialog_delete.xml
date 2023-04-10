@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    app:cardCornerRadius="12dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Delete"
+            android:textSize="22dp" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_dialog_title"
+            android:background="#e9ecef"/>
+
+        <TextView
+            android:id="@+id/tv_dialog_messeger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Lưu ý ! Hệ Thống Sẽ Không Thể Phục Hồi Dữ Liệu sau khi xóa ."
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:layout_marginBottom="-10dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_dialog_yes"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#626365"
+                android:text="yes" />
+            <Button
+                android:id="@+id/btn_dialog_no"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#A1A1A3"
+                android:text="No"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

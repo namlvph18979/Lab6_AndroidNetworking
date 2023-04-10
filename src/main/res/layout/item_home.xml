@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_home_LinearLayout"
+    android:layout_height="140dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/item_home_img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/item" />
+
+            <TextView
+                android:id="@+id/item_home_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/item_home_img"
+                android:text="SAITAMA"
+                android:textColor="#FF5722"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_home_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_home_title"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/item_home_img"
+                android:text="1280 Calories,52G Protein,252g Carbohydrate."
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/item_home_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_home_author"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/item_home_img"
+                android:text="lamnh"
+                android:textColor="#FF1100"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/item_home_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_menu_edit"
+                android:layout_alignParentEnd="true"
+                />
+            <TextView
+                android:id="@+id/item_home_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_menu_delete"
+                android:layout_toLeftOf="@+id/item_home_edit"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

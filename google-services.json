@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45410643048",
+    "project_id": "namlvpro",
+    "storage_bucket": "namlvpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45410643048:android:9c197fa2ff52ac55bb9fdd",
+        "android_client_info": {
+          "package_name": "com.example.lab6_androidnetworking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45410643048-g9sue9acn0ih37500k9eeu50cs4lo0e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGnHi9z3mgkmUAARQ5ebiPKoCsDR37fMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45410643048-g9sue9acn0ih37500k9eeu50cs4lo0e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

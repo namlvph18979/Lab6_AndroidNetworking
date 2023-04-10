@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp"
+    tools:context=".UI.Acti_opition">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/Acti_opition_TabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="#32a9ea"
+        app:tabRippleColor="#98F44336"
+        app:tabIndicatorColor="#F44336"
+        app:tabSelectedTextColor="#F44336"
+        android:layout_marginTop="9dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/Acti_opition_ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

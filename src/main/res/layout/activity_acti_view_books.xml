@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="9dp"
+    tools:context=".UI.Acti_viewBooks">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/Acti_viewBooks_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/item"/>
+
+        <TextView
+            android:id="@+id/Acti_viewBooks_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Acti_viewBooks_img"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="nguyen hoang lam"/>
+        <TextView
+            android:id="@+id/Acti_viewBooks_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Acti_viewBooks_name"
+            android:layout_toRightOf="@+id/Acti_viewBooks_img"
+            android:layout_marginLeft="12dp"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="lamnh"/>
+
+        <TextView
+            android:id="@+id/TextView_noidung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Acti_viewBooks_img"
+            android:layout_marginTop="9dp"
+            android:text="Nội dung"
+            android:padding="6dp"
+            android:background="@drawable/style_button_login"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:id="@+id/TextView_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/TextView_noidung"
+            android:layout_marginTop="9dp"
+            android:text="Nội dung"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>
